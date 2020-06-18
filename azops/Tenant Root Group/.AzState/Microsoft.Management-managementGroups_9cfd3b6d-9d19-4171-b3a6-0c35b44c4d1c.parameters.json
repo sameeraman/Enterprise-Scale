@@ -1,0 +1,124 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/9cfd3b6d-9d19-4171-b3a6-0c35b44c4d1c",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "9cfd3b6d-9d19-4171-b3a6-0c35b44c4d1c",
+        "TenantId": "9cfd3b6d-9d19-4171-b3a6-0c35b44c4d1c",
+        "DisplayName": "Tenant Root Group",
+        "UpdatedTime": "0001-01-01T00:00:00Z",
+        "UpdatedBy": null,
+        "ParentId": null,
+        "ParentName": null,
+        "ParentDisplayName": null,
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/fabrikamau",
+            "Name": "fabrikamau",
+            "DisplayName": "fabrikamau",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/FBK",
+            "Name": "FBK",
+            "DisplayName": "FBK",
+            "Children": [
+              {
+                "Type": "/providers/Microsoft.Management/managementGroups",
+                "Id": "/providers/Microsoft.Management/managementGroups/FBK-platform",
+                "Name": "FBK-platform",
+                "DisplayName": "FBK-platform",
+                "Children": [
+                  {
+                    "Type": "/providers/Microsoft.Management/managementGroups",
+                    "Id": "/providers/Microsoft.Management/managementGroups/FBK-identity",
+                    "Name": "FBK-identity",
+                    "DisplayName": "FBK-identity",
+                    "Children": null
+                  },
+                  {
+                    "Type": "/providers/Microsoft.Management/managementGroups",
+                    "Id": "/providers/Microsoft.Management/managementGroups/FBK-management",
+                    "Name": "FBK-management",
+                    "DisplayName": "FBK-management",
+                    "Children": [
+                      {
+                        "Type": "/subscriptions",
+                        "Id": "/subscriptions/a2aa8935-c43d-4f42-a09a-28aafb7cf8da",
+                        "Name": "a2aa8935-c43d-4f42-a09a-28aafb7cf8da",
+                        "DisplayName": "Free Trial",
+                        "Children": null
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "/providers/Microsoft.Management/managementGroups",
+                    "Id": "/providers/Microsoft.Management/managementGroups/FBK-connectivity",
+                    "Name": "FBK-connectivity",
+                    "DisplayName": "FBK-connectivity",
+                    "Children": null
+                  }
+                ]
+              },
+              {
+                "Type": "/providers/Microsoft.Management/managementGroups",
+                "Id": "/providers/Microsoft.Management/managementGroups/FBK-decomissioned",
+                "Name": "FBK-decomissioned",
+                "DisplayName": "FBK-decomissioned",
+                "Children": null
+              },
+              {
+                "Type": "/providers/Microsoft.Management/managementGroups",
+                "Id": "/providers/Microsoft.Management/managementGroups/FBK-landingzones",
+                "Name": "FBK-landingzones",
+                "DisplayName": "FBK-Landing Zones",
+                "Children": [
+                  {
+                    "Type": "/providers/Microsoft.Management/managementGroups",
+                    "Id": "/providers/Microsoft.Management/managementGroups/FBK-corp",
+                    "Name": "FBK-corp",
+                    "DisplayName": "FBK-corp",
+                    "Children": null
+                  },
+                  {
+                    "Type": "/providers/Microsoft.Management/managementGroups",
+                    "Id": "/providers/Microsoft.Management/managementGroups/FBK-online",
+                    "Name": "FBK-online",
+                    "DisplayName": "FBK-online",
+                    "Children": null
+                  },
+                  {
+                    "Type": "/providers/Microsoft.Management/managementGroups",
+                    "Id": "/providers/Microsoft.Management/managementGroups/FBK-sap",
+                    "Name": "FBK-sap",
+                    "DisplayName": "FBK-sap",
+                    "Children": null
+                  }
+                ]
+              },
+              {
+                "Type": "/providers/Microsoft.Management/managementGroups",
+                "Id": "/providers/Microsoft.Management/managementGroups/FBK-sandboxes",
+                "Name": "FBK-sandboxes",
+                "DisplayName": "FBK-sandboxes",
+                "Children": null
+              }
+            ]
+          }
+        ],
+        "properties": {
+          "policyDefinitions": [],
+          "policySetDefinitions": [],
+          "policyAssignments": [],
+          "roleDefinitions": null,
+          "roleAssignments": null
+        }
+      }
+    }
+  }
+}

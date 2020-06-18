@@ -1,0 +1,50 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/FBK-landingzones",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "FBK-landingzones",
+        "TenantId": "9cfd3b6d-9d19-4171-b3a6-0c35b44c4d1c",
+        "DisplayName": "FBK-Landing Zones",
+        "UpdatedTime": "0001-01-01T00:00:00Z",
+        "UpdatedBy": null,
+        "ParentId": "/providers/Microsoft.Management/managementGroups/FBK",
+        "ParentName": "FBK",
+        "ParentDisplayName": "FBK",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/FBK-corp",
+            "Name": "FBK-corp",
+            "DisplayName": "FBK-corp",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/FBK-online",
+            "Name": "FBK-online",
+            "DisplayName": "FBK-online",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/FBK-sap",
+            "Name": "FBK-sap",
+            "DisplayName": "FBK-sap",
+            "Children": null
+          }
+        ],
+        "properties": {
+          "policyDefinitions": [],
+          "policySetDefinitions": [],
+          "policyAssignments": [],
+          "roleDefinitions": null,
+          "roleAssignments": null
+        }
+      }
+    }
+  }
+}
