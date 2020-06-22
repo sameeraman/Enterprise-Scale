@@ -1,0 +1,24 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Location": "northeurope",
+        "Name": "Deny-AppGW-Without-WAF",
+        "ResourceGroupName": null,
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "SubscriptionId": null,
+        "Identity": null,
+        "Properties": {
+          "Scope": "/providers/Microsoft.Management/managementGroups/FBK",
+          "NotScopes": [],
+          "DisplayName": "Deny Application Gateway Without WAF",
+          "Description": null,
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/FBK/providers/Microsoft.Authorization/policyDefinitions/Deny-AppGW-Without-WAF",
+          "Parameters": {}
+        }
+      }
+    }
+  }
+}
