@@ -1,0 +1,39 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": null,
+        "Location": "northeurope",
+        "Name": "Allowed-RGLocation",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/FBK/providers/Microsoft.Authorization/policyAssignments/Allowed-RGLocation",
+        "ResourceName": "Allowed-RGLocation",
+        "ResourceGroupName": null,
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "SubscriptionId": null,
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        },
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/FBK/providers/Microsoft.Authorization/policyAssignments/Allowed-RGLocation",
+        "Properties": {
+          "Scope": "/providers/Microsoft.Management/managementGroups/FBK",
+          "NotScopes": [],
+          "DisplayName": "Allowed locations for resource groups",
+          "Description": null,
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e765b5de-1225-4ba3-bd56-1ac6695af988",
+          "Parameters": {
+            "listOfAllowedLocations": {
+              "value": [
+                "northeurope",
+                "westeurope",
+                "northcentralus"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
