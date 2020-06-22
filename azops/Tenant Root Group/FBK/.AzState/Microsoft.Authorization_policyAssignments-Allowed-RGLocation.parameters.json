@@ -4,12 +4,19 @@
   "parameters": {
     "input": {
       "value": {
+        "Identity": null,
         "Location": "northeurope",
         "Name": "Allowed-RGLocation",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/FBK/providers/Microsoft.Authorization/policyAssignments/Allowed-RGLocation",
+        "ResourceName": "Allowed-RGLocation",
         "ResourceGroupName": null,
         "ResourceType": "Microsoft.Authorization/policyAssignments",
         "SubscriptionId": null,
-        "Identity": null,
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        },
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/FBK/providers/Microsoft.Authorization/policyAssignments/Allowed-RGLocation",
         "Properties": {
           "Scope": "/providers/Microsoft.Management/managementGroups/FBK",
           "NotScopes": [],
