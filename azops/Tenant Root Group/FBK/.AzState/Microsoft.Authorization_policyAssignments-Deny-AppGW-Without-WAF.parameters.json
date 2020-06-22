@@ -4,12 +4,19 @@
   "parameters": {
     "input": {
       "value": {
+        "Identity": null,
         "Location": "northeurope",
         "Name": "Deny-AppGW-Without-WAF",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/FBK/providers/Microsoft.Authorization/policyAssignments/Deny-AppGW-Without-WAF",
+        "ResourceName": "Deny-AppGW-Without-WAF",
         "ResourceGroupName": null,
         "ResourceType": "Microsoft.Authorization/policyAssignments",
         "SubscriptionId": null,
-        "Identity": null,
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        },
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/FBK/providers/Microsoft.Authorization/policyAssignments/Deny-AppGW-Without-WAF",
         "Properties": {
           "Scope": "/providers/Microsoft.Management/managementGroups/FBK",
           "NotScopes": [],
