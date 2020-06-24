@@ -26,7 +26,51 @@
         "properties": {
           "policyDefinitions": [],
           "policySetDefinitions": [],
-          "policyAssignments": [],
+          "policyAssignments": [
+            {
+              "Identity": {
+                "type": "SystemAssigned",
+                "principalId": "7aadd00c-3743-404c-aa16-be25b8c18396",
+                "tenantId": "9cfd3b6d-9d19-4171-b3a6-0c35b44c4d1c"
+              },
+              "Location": "eastus",
+              "Name": "031a4147cfe34fe2a6cbde22",
+              "ResourceId": "/providers/Microsoft.Management/managementGroups/FBK-management/providers/Microsoft.Authorization/policyAssignments/031a4147cfe34fe2a6cbde22",
+              "ResourceName": "031a4147cfe34fe2a6cbde22",
+              "ResourceGroupName": null,
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "SubscriptionId": null,
+              "Sku": {
+                "name": "A0",
+                "tier": "Free"
+              },
+              "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/FBK-management/providers/Microsoft.Authorization/policyAssignments/031a4147cfe34fe2a6cbde22",
+              "Properties": {
+                "Scope": "/providers/Microsoft.Management/managementGroups/FBK-management",
+                "NotScopes": [],
+                "DisplayName": "Deploy-LogAnalytics",
+                "Description": null,
+                "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/FBK/providers/Microsoft.Authorization/policyDefinitions/Deploy-Log-Analytics",
+                "Parameters": {
+                  "workspaceName": {
+                    "value": "mvpneuprdlogana1"
+                  },
+                  "automationAccountName": {
+                    "value": "mvpneuprdautoacc1"
+                  },
+                  "workspaceRegion": {
+                    "value": "northeurope"
+                  },
+                  "automationRegion": {
+                    "value": "northeurope"
+                  },
+                  "rgName": {
+                    "value": "SP-NEU-PRD-MGMT"
+                  }
+                }
+              }
+            }
+          ],
           "roleDefinitions": null,
           "roleAssignments": null
         }
